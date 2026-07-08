@@ -3,9 +3,8 @@
 A responsive single-page portfolio (Hero, About, Projects, Contact) hosted on AWS S3 and served securely over HTTPS via Amazon CloudFront.
 
 ## 🔗 Live Site
-- **CloudFront URL:** https://dXXXXXXXXXXXXX.cloudfront.net
-- **S3 Website Endpoint (HTTP only):** http://your-bucket-name.s3-website-<region>.amazonaws.com
-- **Custom Domain (optional):** https://yourdomain.com
+- **CloudFront URL:** https://d220hul9m1nohg.cloudfront.net
+- **S3 Website Endpoint (HTTP only):** http://henilkorat-portfolio.s3-website.ap-south-1.amazonaws.com
 
 ## 🛠 Tech Stack
 - HTML5, CSS3
