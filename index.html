@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Henil Korat — Aspiring DevOps Engineer</title>
+<meta name="description" content="Portfolio of Henil Korat, a student and aspiring DevOps engineer working with Docker, Kubernetes, Jenkins, GitHub Actions, AWS and Linux.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav__inner">
+    <a class="nav__logo" href="#top">Henil Korat</a>
+    <nav class="nav__links">
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero wrap">
+    <p class="eyebrow">Student · Aspiring DevOps Engineer</p>
+    <h1 class="hero__title">Henil Korat</h1>
+    <p class="hero__sub">
+      I'm learning to build and automate the systems that ship software —
+      containers, clusters, and CI/CD pipelines. Still early in the journey,
+      and building in public as I go.
+    </p>
+    <div class="hero__cta">
+      <a href="#projects" class="btn btn--primary">See my projects</a>
+      <a href="#contact" class="btn btn--ghost">Get in touch</a>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="wrap">
+      <p class="eyebrow">Skills</p>
+      <h2 class="section__title">What I work with</h2>
+
+      <div class="ls">
+        <div class="ls__bar">skills/</div>
+        <ul class="ls__list">
+          <li><span class="ls__tag">docker</span></li>
+          <li><span class="ls__tag">kubernetes</span></li>
+          <li><span class="ls__tag">jenkins</span></li>
+          <li><span class="ls__tag">github-actions</span></li>
+          <li><span class="ls__tag">aws</span></li>
+          <li><span class="ls__tag">linux</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section section--alt" id="projects">
+    <div class="wrap">
+      <p class="eyebrow">Projects</p>
+      <h2 class="section__title">Things I've built</h2>
+
+      <div class="project-list">
+
+        <article class="project">
+          <div class="project__index">01</div>
+          <div class="project__body">
+            <h3>3-tier application on Kubernetes</h3>
+            <p>Containerized a 3-tier application with Docker and deployed it on Kubernetes, setting up separate services for the frontend, backend, and database layers.</p>
+            <div class="pills">
+              <span>Docker</span><span>Kubernetes</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project__index">02</div>
+          <div class="project__body">
+            <h3>GitHub Actions image pipeline</h3>
+            <p>Set up a GitHub Actions workflow that builds and pushes a Docker image automatically on every push to the repository.</p>
+            <div class="pills">
+              <span>GitHub Actions</span><span>Docker</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project__index">03</div>
+          <div class="project__body">
+            <h3>Jenkins CI/CD pipeline</h3>
+            <p>Built a Jenkins pipeline that runs automated tests and builds the project on every push, catching issues before they reach the main branch.</p>
+            <div class="pills">
+              <span>Jenkins</span><span>CI/CD</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="project-note">More projects on <a href="https://github.com/henilkorat" target="_blank" rel="noopener">GitHub →</a></p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="wrap contact">
+      <p class="eyebrow">Contact</p>
+      <h2 class="section__title">Let's talk</h2>
+      <p class="contact__sub">Open to internships and entry-level DevOps roles.</p>
+
+      <div class="contact__row">
+        <span class="contact__label">Email</span>
+        <span class="contact__value" id="email-value">henilkorat96@gmail.com</span>
+        <button class="copy-btn" data-copy="henilkorat96@gmail.com">copy</button>
+      </div>
+      <div class="contact__row">
+        <span class="contact__label">GitHub</span>
+        <a class="contact__value" href="https://github.com/henilkorat" target="_blank" rel="noopener">github.com/henilkorat</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <span>© 2026 Henil Korat</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
